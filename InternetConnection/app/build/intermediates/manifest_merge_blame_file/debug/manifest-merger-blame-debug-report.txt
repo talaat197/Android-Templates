@@ -1,0 +1,52 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.internetconnection"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->/home/tmt/AndroidStudioProjects/InternetConnection/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/tmt/AndroidStudioProjects/InternetConnection/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->/home/tmt/AndroidStudioProjects/InternetConnection/app/src/main/AndroidManifest.xml:5:5-79
+11-->/home/tmt/AndroidStudioProjects/InternetConnection/app/src/main/AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/tmt/AndroidStudioProjects/InternetConnection/app/src/main/AndroidManifest.xml:6:5-66
+12-->/home/tmt/AndroidStudioProjects/InternetConnection/app/src/main/AndroidManifest.xml:6:22-64
+13
+14    <application
+14-->/home/tmt/AndroidStudioProjects/InternetConnection/app/src/main/AndroidManifest.xml:7:5-19:19
+15        android:allowBackup="true"
+15-->/home/tmt/AndroidStudioProjects/InternetConnection/app/src/main/AndroidManifest.xml:8:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.0.1] /home/tmt/.gradle/caches/transforms-2/files-2.1/247c544e016792902ec5f1eb267b6b25/core-1.0.1/AndroidManifest.xml:22:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->/home/tmt/AndroidStudioProjects/InternetConnection/app/src/main/AndroidManifest.xml:9:9-43
+19        android:label="@string/app_name"
+19-->/home/tmt/AndroidStudioProjects/InternetConnection/app/src/main/AndroidManifest.xml:10:9-41
+20        android:supportsRtl="true"
+20-->/home/tmt/AndroidStudioProjects/InternetConnection/app/src/main/AndroidManifest.xml:11:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->/home/tmt/AndroidStudioProjects/InternetConnection/app/src/main/AndroidManifest.xml:12:9-40
+23        <activity android:name="com.example.internetconnection.MainActivity" >
+23-->/home/tmt/AndroidStudioProjects/InternetConnection/app/src/main/AndroidManifest.xml:13:9-18:20
+23-->/home/tmt/AndroidStudioProjects/InternetConnection/app/src/main/AndroidManifest.xml:13:19-77
+24            <intent-filter>
+24-->/home/tmt/AndroidStudioProjects/InternetConnection/app/src/main/AndroidManifest.xml:14:13-17:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->/home/tmt/AndroidStudioProjects/InternetConnection/app/src/main/AndroidManifest.xml:15:17-69
+25-->/home/tmt/AndroidStudioProjects/InternetConnection/app/src/main/AndroidManifest.xml:15:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->/home/tmt/AndroidStudioProjects/InternetConnection/app/src/main/AndroidManifest.xml:16:17-77
+27-->/home/tmt/AndroidStudioProjects/InternetConnection/app/src/main/AndroidManifest.xml:16:27-74
+28            </intent-filter>
+29        </activity>
+30    </application>
+31
+32</manifest>
