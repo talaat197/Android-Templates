@@ -1,0 +1,65 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.broadcastreceiver"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->/home/tmt/AndroidStudioProjects/BroadcastReceiver/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/tmt/AndroidStudioProjects/BroadcastReceiver/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/home/tmt/AndroidStudioProjects/BroadcastReceiver/app/src/main/AndroidManifest.xml:5:5-30:19
+12        android:allowBackup="true"
+12-->/home/tmt/AndroidStudioProjects/BroadcastReceiver/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] /home/tmt/.gradle/caches/transforms-2/files-2.1/817f5f994f467f8f015ac529db244e2e/core-1.1.0/AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->/home/tmt/AndroidStudioProjects/BroadcastReceiver/app/src/main/AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->/home/tmt/AndroidStudioProjects/BroadcastReceiver/app/src/main/AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->/home/tmt/AndroidStudioProjects/BroadcastReceiver/app/src/main/AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->/home/tmt/AndroidStudioProjects/BroadcastReceiver/app/src/main/AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->/home/tmt/AndroidStudioProjects/BroadcastReceiver/app/src/main/AndroidManifest.xml:11:9-40
+21        <receiver
+21-->/home/tmt/AndroidStudioProjects/BroadcastReceiver/app/src/main/AndroidManifest.xml:12:9-16:20
+22            android:name="com.example.broadcastreceiver.CustomBroad"
+22-->/home/tmt/AndroidStudioProjects/BroadcastReceiver/app/src/main/AndroidManifest.xml:13:13-40
+23            android:enabled="true"
+23-->/home/tmt/AndroidStudioProjects/BroadcastReceiver/app/src/main/AndroidManifest.xml:14:13-35
+24            android:exported="true" >
+24-->/home/tmt/AndroidStudioProjects/BroadcastReceiver/app/src/main/AndroidManifest.xml:15:13-36
+25        </receiver>
+26        <receiver
+26-->/home/tmt/AndroidStudioProjects/BroadcastReceiver/app/src/main/AndroidManifest.xml:18:9-21:48
+27            android:name="com.example.broadcastreceiver.BatteryReceiver"
+27-->/home/tmt/AndroidStudioProjects/BroadcastReceiver/app/src/main/AndroidManifest.xml:19:13-44
+28            android:enabled="true"
+28-->/home/tmt/AndroidStudioProjects/BroadcastReceiver/app/src/main/AndroidManifest.xml:20:13-35
+29            android:exported="true" />
+29-->/home/tmt/AndroidStudioProjects/BroadcastReceiver/app/src/main/AndroidManifest.xml:21:13-36
+30
+31        <activity android:name="com.example.broadcastreceiver.MainActivity" >
+31-->/home/tmt/AndroidStudioProjects/BroadcastReceiver/app/src/main/AndroidManifest.xml:23:9-29:20
+31-->/home/tmt/AndroidStudioProjects/BroadcastReceiver/app/src/main/AndroidManifest.xml:23:19-47
+32            <intent-filter>
+32-->/home/tmt/AndroidStudioProjects/BroadcastReceiver/app/src/main/AndroidManifest.xml:24:13-28:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/home/tmt/AndroidStudioProjects/BroadcastReceiver/app/src/main/AndroidManifest.xml:25:17-69
+33-->/home/tmt/AndroidStudioProjects/BroadcastReceiver/app/src/main/AndroidManifest.xml:25:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/home/tmt/AndroidStudioProjects/BroadcastReceiver/app/src/main/AndroidManifest.xml:27:17-77
+35-->/home/tmt/AndroidStudioProjects/BroadcastReceiver/app/src/main/AndroidManifest.xml:27:27-74
+36            </intent-filter>
+37        </activity>
+38    </application>
+39
+40</manifest>

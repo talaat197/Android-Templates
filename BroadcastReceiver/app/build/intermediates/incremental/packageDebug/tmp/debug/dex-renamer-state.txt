@@ -1,0 +1,4 @@
+#Wed Oct 02 10:56:16 EET 2019
+base.0=/home/tmt/AndroidStudioProjects/BroadcastReceiver/app/build/intermediates/dex/debug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,61 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.broadcast2"
+4    android:sharedUserId="android.uid.system"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="15"
+9-->/home/tmt/AndroidStudioProjects/Broadcast2/app/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->/home/tmt/AndroidStudioProjects/Broadcast2/app/src/main/AndroidManifest.xml
+11
+12    <application
+12-->/home/tmt/AndroidStudioProjects/Broadcast2/app/src/main/AndroidManifest.xml:6:5-28:19
+13        android:allowBackup="true"
+13-->/home/tmt/AndroidStudioProjects/Broadcast2/app/src/main/AndroidManifest.xml:7:9-35
+14        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+14-->[androidx.core:core:1.1.0] /home/tmt/.gradle/caches/transforms-2/files-2.1/817f5f994f467f8f015ac529db244e2e/core-1.1.0/AndroidManifest.xml:24:18-86
+15        android:debuggable="true"
+16        android:icon="@mipmap/ic_launcher"
+16-->/home/tmt/AndroidStudioProjects/Broadcast2/app/src/main/AndroidManifest.xml:8:9-43
+17        android:label="@string/app_name"
+17-->/home/tmt/AndroidStudioProjects/Broadcast2/app/src/main/AndroidManifest.xml:9:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->/home/tmt/AndroidStudioProjects/Broadcast2/app/src/main/AndroidManifest.xml:10:9-54
+19        android:supportsRtl="true"
+19-->/home/tmt/AndroidStudioProjects/Broadcast2/app/src/main/AndroidManifest.xml:11:9-35
+20        android:testOnly="true"
+21        android:theme="@style/AppTheme" >
+21-->/home/tmt/AndroidStudioProjects/Broadcast2/app/src/main/AndroidManifest.xml:12:9-40
+22        <receiver
+22-->/home/tmt/AndroidStudioProjects/Broadcast2/app/src/main/AndroidManifest.xml:13:9-19:20
+23            android:name="com.example.broadcast2.CustomBroad02"
+23-->/home/tmt/AndroidStudioProjects/Broadcast2/app/src/main/AndroidManifest.xml:14:13-42
+24            android:enabled="true"
+24-->/home/tmt/AndroidStudioProjects/Broadcast2/app/src/main/AndroidManifest.xml:15:13-35
+25            android:exported="true" >
+25-->/home/tmt/AndroidStudioProjects/Broadcast2/app/src/main/AndroidManifest.xml:16:13-36
+26            <action android:name="com.example.broadcast2.TMT.ACTION_CUSTOM" />
+26-->/home/tmt/AndroidStudioProjects/Broadcast2/app/src/main/AndroidManifest.xml:17:13-79
+26-->/home/tmt/AndroidStudioProjects/Broadcast2/app/src/main/AndroidManifest.xml:17:21-76
+27        </receiver>
+28
+29        <activity android:name="com.example.broadcast2.MainActivity" >
+29-->/home/tmt/AndroidStudioProjects/Broadcast2/app/src/main/AndroidManifest.xml:21:9-27:20
+29-->/home/tmt/AndroidStudioProjects/Broadcast2/app/src/main/AndroidManifest.xml:21:19-47
+30            <intent-filter>
+30-->/home/tmt/AndroidStudioProjects/Broadcast2/app/src/main/AndroidManifest.xml:22:13-26:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->/home/tmt/AndroidStudioProjects/Broadcast2/app/src/main/AndroidManifest.xml:23:17-69
+31-->/home/tmt/AndroidStudioProjects/Broadcast2/app/src/main/AndroidManifest.xml:23:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/home/tmt/AndroidStudioProjects/Broadcast2/app/src/main/AndroidManifest.xml:25:17-77
+33-->/home/tmt/AndroidStudioProjects/Broadcast2/app/src/main/AndroidManifest.xml:25:27-74
+34            </intent-filter>
+35        </activity>
+36    </application>
+37
+38</manifest>
